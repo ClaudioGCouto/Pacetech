@@ -1,4 +1,4 @@
-algoritmo "Projeto conversões"
+algoritmo "Projeto conversÃµes"
 
 var
 menu, menu2: literal
@@ -14,12 +14,12 @@ repita
 
    escolha menu
    caso "1"
-      Escreval ("Você selecionou converter Celsius para Fahrenheit, insira a temperatura desejada:")
+      Escreval ("VocÃª selecionou converter Celsius para Fahrenheit, insira a temperatura desejada:")
       leia (temperatura)
       conversaotemp <-(temperatura * (9/5)) + 32
 
    caso "2"
-      Escreval ("Você selecionou converter Fahrenheit para Celsius, insira a temperatura desejada:")
+      Escreval ("VocÃª selecionou converter Fahrenheit para Celsius, insira a temperatura desejada:")
       leia (temperatura)
       conversaotemp <-(temperatura - 32) * (5/9)
 
@@ -29,7 +29,7 @@ repita
    fimescolha
 
    Escreval(" ")
-   Escreval("Insira a cotação do dolar atual:")
+   Escreval("Insira a cotaÃ§Ã£o do dolar atual:")
    leia(cotacaodolar)
 
    Escreval ("1 - Real para Dolar ")
@@ -49,7 +49,7 @@ repita
 
    fimescolha
 
-   Escreval ("Temperatura convertida é de: ", conversaotemp, " °C / °F" )
+   Escreval ("Temperatura convertida Ã© de: ", conversaotemp, " Â°C / Â°F" )
    Escreval ("Seu valor inserido equivale a ", conversaomoeda :2 :2,"$")
    Escreval (" ")
 
